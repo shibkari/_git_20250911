@@ -8,11 +8,21 @@ console.log('JS #2. Домашнє завдання. Від простих до 
  */
 
 // i
-var i = 5
-console.log(i++) // 5 
-console.log(++i) // 7
-console.log(i--) // 7
-console.log(--i) // 5
+var i = 3
+console.log(i) // 3
+
+console.log(i++) // 3
+console.log(i) // 4
+
+console.log(++i) // 5
+console.log(i) // 5
+
+console.log(i--) // 5
+console.log(i) // 4
+
+console.log(--i) // 3
+console.log(i) // 3
+
 
 
 /*
@@ -23,13 +33,14 @@ console.log(--i) // 5
  * Результати присвоюються в myTest, потім виводяться в консоль.
  * У розрахунках можна використовувати раніше оголошену змінну myNum та/або числа.
  */
-var myNum = 10
+
 // myTest
 // +=
 // –=
 // *=
 // /=
 // %=
+var myNum = 10
 var myTest = 20
 myTest += myNum
 console.log(myTest) // 30

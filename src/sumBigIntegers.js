@@ -11,4 +11,5 @@ function sumBigIntegers(numStr1, numStr2) {
   return bigInt1 + bigInt2;
 }
 
+console.log(sumBigIntegers('9007199254740991', '9007199254740991')); // 18014398509481982n
 export { sumBigIntegers }
